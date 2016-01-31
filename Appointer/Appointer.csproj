@@ -184,7 +184,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AppointerEntities.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JobTypesController.cs" />
     <Compile Include="Controllers\SignupController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
@@ -374,6 +376,11 @@
     <Content Include="Views\Signup\Create.cshtml" />
     <Content Include="Views\Signup\Edit.cshtml" />
     <Content Include="Views\Signup\Delete.cshtml" />
+    <Content Include="Views\JobTypes\Index.cshtml" />
+    <Content Include="Views\JobTypes\Details.cshtml" />
+    <Content Include="Views\JobTypes\Create.cshtml" />
+    <Content Include="Views\JobTypes\Edit.cshtml" />
+    <Content Include="Views\JobTypes\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -130,9 +130,9 @@ footer {
 ----------------------------------------------------------*/
 .site-title {
     color: #c8c8c8;
-    font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
-    font-size: 2.3em;
-    margin: 0;
+    font-family: 'B Nazanin';
+    font-size: 3.2em;
+    margin:0;
 }
 
 .site-title a, .site-title a:hover, .site-title a:active {
@@ -147,8 +147,10 @@ footer {
 ----------------------------------------------------------*/
 #login {
     display: block;
-    font-size: .85em;
+    font-size: 1.95em;
+    font-family:'0 Homa';
     margin: 0 0 10px;
+    
     text-align: right;
 }
 
@@ -180,11 +182,12 @@ footer {
 /* menu
 ----------------------------------------------------------*/
 ul#menu {
-    font-size: 1.3em;
+    font-size: 2.3em;
     font-weight: 600;
     margin: 0 0 5px;
     padding: 0;
     text-align: right;
+    font-family:'0 Roya';
 }
 
     ul#menu li {
