@@ -84,7 +84,6 @@
             @Html.EditorFor(model => model.Description)
             @Html.ValidationMessageFor(model => model.Description)
         </div>
-
         <div class="editor-label">
             @Html.LabelFor(model => model.JobId, "Jobs1")
         </div>
@@ -92,6 +91,7 @@
             @Html.DropDownList("JobId", String.Empty)
             @Html.ValidationMessageFor(model => model.JobId)
         </div>
+
 
         <p>
             <input type="submit" value="Create" />
